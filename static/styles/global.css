@@ -15,7 +15,7 @@
 	--juicy: #850053;
 
 	--neutral: #e8e8e8;
-	--neutral-middle: #999999;
+	--neutral-middle: #AAAAAA;
 	--neutral-dark: #686870;
 }
 
@@ -33,12 +33,14 @@ body, html {
 
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 12pt;
-	line-height: 1.4;
+	line-height: 1;
 	font-weight: normal;
+
+	color: var(--subtle-light);
+	background-color: var(--deep-dark);
 }
 
 header, main, footer {
-	max-width: 900px;
 	margin: 0 auto;
 	width: calc(100% - 0.8em);
 	padding: 0.4em;
@@ -57,12 +59,12 @@ nav {
 
 nav a {
 	text-decoration: none;
-	color: var(--dark);
+	color: var(--subtle-light);
 	padding: 4px;
 }
 
 nav a.active {
-    border-bottom: 2px solid var(--dark);
+    border-bottom: 2px solid var(--subtle-light);
 }
 
 figure {
@@ -88,9 +90,6 @@ figure figcaption {
 }
 
 section {
-	border: 1px solid rgba(11, 11, 11, .25);
-	border-radius: 3px;
-	padding: 1em;
 	margin: 1em auto;
 }
 
@@ -118,6 +117,12 @@ input[type=email] {
 
 footer {
 	min-height: 50px;
+}
+
+a {
+	color: var(--calm);
+	text-decoration: none;
+	border-bottom: 2px dashed var(--calm);
 }
 
 .min-width-300 { min-width: 300px; }
@@ -166,6 +171,7 @@ footer {
 .padding-bottom { padding-bottom: 8px; }
 .padding { padding: 8px; }
 
+.margin-auto { margin-top: auto; }
 .margin-top { margin-top: 8px; }
 .margin-right { margin-right: 8px; }
 .margin-left { margin-left: 8px; }
@@ -238,6 +244,7 @@ footer {
 .bg-deep-dark { background-color: var(--deep-dark); }
 .bg-energized { background-color: var(--energized); }
 .bg-assertive { background-color: var(--assertive); }
+.bg-juicy { background-color: var(--juicy); }
 
 @media screen and (max-width: 400px)
 {

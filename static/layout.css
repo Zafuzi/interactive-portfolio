@@ -1,0 +1,16 @@
+h1 {
+	font-size: 32pt;
+	font-weight: bold;
+	font-family: "Courier New", serif;
+	margin: 4em auto;
+}
+
+section {
+	color: var(--neutral-middle);
+}
+
+p {
+	margin-top: 24px;
+	font-size: 14pt;
+	line-height: 2;
+}

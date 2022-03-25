@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function()
 {
 	nav = document.querySelector("nav");
 	setActiveNav();
-	getSettings();
+	//getSettings();
 });
 
 function setActiveNav()
