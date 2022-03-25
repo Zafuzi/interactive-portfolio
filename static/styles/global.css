@@ -61,6 +61,7 @@ nav a {
 	text-decoration: none;
 	color: var(--subtle-light);
 	padding: 4px;
+	margin-left: 8px;
 }
 
 nav a.active {
@@ -250,6 +251,11 @@ a {
 {
 	nav {
 		justify-content: center;
+		flex-flow: column;
+	}
+
+	nav div {
+		margin-top: 24px;
 	}
 }
 
