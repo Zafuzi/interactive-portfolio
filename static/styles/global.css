@@ -110,6 +110,7 @@ input[type=number],
 input[type=checkbox],
 input[type=password],
 input[type=username],
+input[type=tel],
 input[type=email] {
     padding: 5px;
     border: 2px solid #aaa;
